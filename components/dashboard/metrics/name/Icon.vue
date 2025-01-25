@@ -86,7 +86,6 @@ const iconMaps = {
   'safari': SafariIcon,
   'samsung internet': SamsungIcon,
   'tablet': Tablet,
-  'twitterbot': XIcon,
   'ubuntu': UbuntuIcon,
   'vivo browser': VivoIcon,
   'wechat': WeChatIcon,
