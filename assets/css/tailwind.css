@@ -4,34 +4,34 @@
 
 @layer base {
   :root {
-    --background: 40 15% 23%;
-    --foreground: 60 100% 100%;
+    --background: 0 0% 100%;
+    --foreground: 240 10% 3.9%;
 
-    --muted: 40 15% 30%;
-    --muted-foreground: 60 100% 100%;
+    --muted: 240 4.8% 95.9%;
+    --muted-foreground: 240 3.8% 46.1%;
 
-    --popover: 40 15% 23%;
-    --popover-foreground: 60 100% 100%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 240 10% 3.9%;
 
-    --card: 40 15% 23%;
-    --card-foreground: 60 100% 100%;
+    --card: 0 0% 100%;
+    --card-foreground: 240 10% 3.9%;
 
-    --border: 40 15% 30%;
-    --input: 40 15% 30%;
+    --border: 240 5.9% 90%;
+    --input: 240 5.9% 90%;
 
-    --primary: 231 15% 63%;
-    --primary-foreground: 60 100% 100%;
+    --primary: 240 5.9% 10%;
+    --primary-foreground: 0 0% 98%;
 
-    --secondary: 231 15% 63%;
-    --secondary-foreground: 60 100% 100%;
+    --secondary: 240 4.8% 95.9%;
+    --secondary-foreground: 240 5.9% 10%;
 
-    --accent: 231 15% 63%;
-    --accent-foreground: 60 100% 100%;
+    --accent: 240 4.8% 95.9%;
+    --accent-foreground: 240 5.9% 10%;
 
     --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 60 100% 100%;
+    --destructive-foreground: 0 0% 98%;
 
-    --ring: 231 15% 63%;
+    --ring: 240 10% 3.9%;
 
     --radius: 0.5rem;
 
@@ -42,40 +42,42 @@
     --vis-tooltip-backdrop-filter: none !important;
     --vis-tooltip-padding: none !important;
 
-    --vis-primary-color: 231 15% 63%;
-    --vis-secondary-color: 231 15% 63%;
+    --vis-primary-color: 198 93% 60%;
+    --vis-secondary-color: 158 64% 52%;
+    /* --vis-secondary-color: 160 81% 40%; */
+    /* --vis-secondary-color: var(--primary); */
     --vis-text-color: var(--muted-foreground);
   }
 
   .dark {
-    --background: 231 15% 23%;
-    --foreground: 60 100% 100%;
+    --background: 231 15% 18%; /* Dracula Background (#282a36) */
+    --foreground: 60 100% 98%; /* Dracula Foreground (#f8f8f2) */
 
-    --muted: 231 15% 30%;
-    --muted-foreground: 60 100% 100%;
+    --muted: 231 15% 28%; /* Slightly lighter than background (#44475a) */
+    --muted-foreground: 60 100% 80%; /* Slightly darker than foreground (#e6e6e6) */
 
-    --popover: 231 15% 23%;
-    --popover-foreground: 60 100% 100%;
+    --popover: 231 15% 18%; /* Same as background */
+    --popover-foreground: 60 100% 98%; /* Same as foreground */
 
-    --card: 231 15% 23%;
-    --card-foreground: 60 100% 100%;
+    --card: 231 15% 18%; /* Same as background */
+    --card-foreground: 60 100% 98%; /* Same as foreground */
 
-    --border: 231 15% 30%;
-    --input: 231 15% 30%;
+    --border: 231 15% 28%; /* Slightly lighter than background (#44475a) */
+    --input: 231 15% 28%; /* Slightly lighter than background (#44475a) */
 
-    --primary: 231 15% 63%;
-    --primary-foreground: 60 100% 100%;
+    --primary: 231 15% 18%; /* Same as background */
+    --primary-foreground: 60 100% 98%; /* Same as foreground */
 
-    --secondary: 231 15% 63%;
-    --secondary-foreground: 60 100% 100%;
+    --secondary: 231 15% 28%; /* Slightly lighter than background (#44475a) */
+    --secondary-foreground: 60 100% 98%; /* Same as foreground */
 
-    --accent: 231 15% 63%;
-    --accent-foreground: 60 100% 100%;
+    --accent: 231 15% 28%; /* Slightly lighter than background (#44475a) */
+    --accent-foreground: 60 100% 98%; /* Same as foreground */
 
-    --destructive: 0 62.8% 30.6%;
-    --destructive-foreground: 60 100% 100%;
+    --destructive: 0 62.8% 47%; /* Dracula Red (#ff5555) */
+    --destructive-foreground: 60 100% 98%; /* Dracula Foreground (#f8f8f2) */
 
-    --ring: 231 15% 63%;
+    --ring: 231 15% 28%; /* Slightly lighter than background (#44475a) */
   }
 }
 
