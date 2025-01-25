@@ -46,7 +46,7 @@
 
 ## 🪧 Demo
 
-Experience the demo at [Sink.Cool](https://sink.cool/dashboard). Log in using the Site Token below:
+Experience the demo at [dl.is](https://dl.is/dashboard). Log in using the Site Token below:
 
 ```txt
 Site Token: SinkCool
@@ -54,9 +54,9 @@ Site Token: SinkCool
 
 <details>
   <summary><b>Screenshots</b></summary>
-  <img alt="Analytics" src="./docs/images/sink.cool_dashboard.png"/>
-  <img alt="Links" src="./docs/images/sink.cool_dashboard_links.png"/>
-  <img alt="Link Analytics" src="./docs/images/sink.cool_dashboard_link_slug.png"/>
+  <img alt="Analytics" src="./docs/images/dl.is_dashboard.png"/>
+  <img alt="Links" src="./docs/images/dl.is_dashboard_links.png"/>
+  <img alt="Link Analytics" src="./docs/images/dl.is_dashboard_link_slug.png"/>
 </details>
 
 ## 🧱 Technologies Used
