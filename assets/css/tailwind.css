@@ -34,48 +34,34 @@
     --ring: 240 10% 3.9%;
 
     --radius: 0.5rem;
-
-    --vis-tooltip-background-color: none !important;
-    --vis-tooltip-border-color: none !important;
-    --vis-tooltip-text-color: none !important;
-    --vis-tooltip-shadow-color: none !important;
-    --vis-tooltip-backdrop-filter: none !important;
-    --vis-tooltip-padding: none !important;
-
-    --vis-primary-color: 198 93% 60%;
-    --vis-secondary-color: 158 64% 52%;
-    /* --vis-secondary-color: 160 81% 40%; */
-    /* --vis-secondary-color: var(--primary); */
-    --vis-text-color: var(--muted-foreground);
   }
 
   .dark {
     --background: 231 15% 18%; /* Dracula Background (#282a36) */
-    --foreground: 60 100% 98%; /* Dracula Foreground (#f8f8f2) */
-
+    --foreground: 60 100% 95%; /* Brighter text for better contrast */
     --muted: 231 15% 28%; /* Slightly lighter than background (#44475a) */
-    --muted-foreground: 60 100% 80%; /* Slightly darker than foreground (#e6e6e6) */
+    --muted-foreground: 60 10% 80%; /* Muted text with better contrast */
 
     --popover: 231 15% 18%; /* Same as background */
-    --popover-foreground: 60 100% 98%; /* Same as foreground */
+    --popover-foreground: 60 100% 95%; /* Same as foreground */
 
     --card: 231 15% 18%; /* Same as background */
-    --card-foreground: 60 100% 98%; /* Same as foreground */
+    --card-foreground: 60 100% 95%; /* Same as foreground */
 
     --border: 231 15% 28%; /* Slightly lighter than background (#44475a) */
     --input: 231 15% 28%; /* Slightly lighter than background (#44475a) */
 
     --primary: 231 15% 18%; /* Same as background */
-    --primary-foreground: 60 100% 98%; /* Same as foreground */
+    --primary-foreground: 60 100% 95%; /* Bright text for primary elements */
 
     --secondary: 231 15% 28%; /* Slightly lighter than background (#44475a) */
-    --secondary-foreground: 60 100% 98%; /* Same as foreground */
+    --secondary-foreground: 60 100% 95%; /* Same as foreground */
 
     --accent: 231 15% 28%; /* Slightly lighter than background (#44475a) */
-    --accent-foreground: 60 100% 98%; /* Same as foreground */
+    --accent-foreground: 60 100% 95%; /* Same as foreground */
 
     --destructive: 0 62.8% 47%; /* Dracula Red (#ff5555) */
-    --destructive-foreground: 60 100% 98%; /* Dracula Foreground (#f8f8f2) */
+    --destructive-foreground: 60 100% 95%; /* Bright text for destructive actions */
 
     --ring: 231 15% 28%; /* Slightly lighter than background (#44475a) */
   }
