@@ -17,7 +17,7 @@ const { title, github } = useAppConfig()
           <a
             href="/"
             :title="title"
-            class="flex items-center py-4 space-x-2 text-xl font-black dark:hover:text-primary text-foreground md:py-0 whitespace-nowrap"
+            class="flex items-center py-4 space-x-2 text-xl font-black dark:hover:text-accent text-foreground md:py-0 whitespace-nowrap"
           >
             <span
               class="flex items-center justify-center w-8 h-8 rounded-full bg-primary"
