@@ -20,11 +20,13 @@ const { title, description, github } = useAppConfig()
         {{ description }}
       </p>
       <div class="flex flex-col gap-3 mt-6 sm:flex-row">
+        <!-- Dashboard Button -->
         <HomeLink
           href="/dashboard"
+          type="outline"
           target="_blank"
           title="Dashboard"
-          class="flex items-center justify-center gap-1"
+          class="flex items-center justify-center gap-1 px-6 py-3 rounded-full transition-colors bg-transparent text-primary border border-primary hover:bg-primary hover:text-primary-foreground dark:bg-primary-foreground dark:text-primary dark:border-primary-foreground dark:hover:bg-primary dark:hover:text-primary-foreground"
           rel="noopener"
         >
           <AreaChart
@@ -32,13 +34,14 @@ const { title, description, github } = useAppConfig()
           />
           Dashboard
         </HomeLink>
+        <!-- GitHub Repo Button -->
         <HomeLink
           size="lg"
           type="outline"
           rel="noopener"
           :href="github"
           title="Github"
-          class="flex items-center justify-center gap-1"
+          class="flex items-center justify-center gap-1 px-6 py-3 rounded-full transition-colors bg-transparent text-primary border border-primary hover:bg-primary hover:text-primary-foreground dark:bg-transparent dark:text-primary-foreground dark:border-primary-foreground dark:hover:bg-primary-foreground dark:hover:text-primary"
           target="_blank"
         >
           <GitHubIcon

@@ -1,47 +1,26 @@
 <script setup>
-import { Laptop, Moon, Sun } from 'lucide-vue-next'
+import { Moon, Sun } from 'lucide-vue-next'
 
 const colorMode = useColorMode()
+
+// Function to toggle between light and dark modes
+function toggleTheme() {
+  colorMode.preference = colorMode.preference === 'dark' ? 'light' : 'dark'
+}
 </script>
 
 <template>
-  <DropdownMenu>
-    <DropdownMenuTrigger as-child>
-      <Button variant="ghost">
-        <Sun
-          class="absolute w-5 h-5 transition-all scale-100 dark:scale-0"
-        />
-        <Moon
-          class="w-5 h-5 transition-all scale-0 dark:scale-100"
-        />
-        <span class="sr-only">Toggle theme</span>
-      </Button>
-    </DropdownMenuTrigger>
-    <DropdownMenuContent
-      align="end"
-      class="min-w-min"
-    >
-      <DropdownMenuItem
-        class="cursor-pointer"
-        @click="colorMode.preference = 'light'"
-      >
-        <Sun class="w-4 h-4 mr-1" />
-        Light
-      </DropdownMenuItem>
-      <DropdownMenuItem
-        class="cursor-pointer"
-        @click="colorMode.preference = 'dark'"
-      >
-        <Moon class="w-4 h-4 mr-1" />
-        Dark
-      </DropdownMenuItem>
-      <DropdownMenuItem
-        class="cursor-pointer"
-        @click="colorMode.preference = 'system'"
-      >
-        <Laptop class="w-4 h-4 mr-1" />
-        System
-      </DropdownMenuItem>
-    </DropdownMenuContent>
-  </DropdownMenu>
+  <button
+    class="relative flex items-center justify-center w-10 h-10 rounded-full transition-all hover:bg-muted"
+    title="Toggle theme"
+    @click="toggleTheme"
+  >
+    <Sun
+      class="absolute w-5 h-5 transition-all scale-100 dark:scale-0"
+    />
+    <Moon
+      class="w-5 h-5 transition-all scale-0 dark:scale-100"
+    />
+    <span class="sr-only">Toggle theme</span>
+  </button>
 </template>
