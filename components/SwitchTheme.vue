@@ -11,7 +11,7 @@ function toggleTheme() {
 
 <template>
   <button
-    class="relative flex items-center justify-center w-10 h-10 rounded-full transition-all hover:bg-muted"
+    class="relative flex items-center justify-center w-10 h-10 rounded-full transition-all hover:bg-primary hover:text-background"
     title="Toggle theme"
     @click="toggleTheme"
   >

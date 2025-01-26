@@ -3,73 +3,78 @@
 @tailwind utilities;
 
 @layer base {
+  /* Light Theme (Default) */
   :root {
-    --background: 0 0% 100%;
-    --foreground: 240 10% 3.9%;
+    --background: 0 0% 100%; /* Light Background (#ffffff) */
+    --foreground: 240 10% 3.9%; /* Dark Text (#1a1a1a) */
 
-    --muted: 240 4.8% 95.9%;
-    --muted-foreground: 240 3.8% 46.1%;
+    --muted: 240 4.8% 95.9%; /* Light Muted Background (#f2f2f2) */
+    --muted-foreground: 240 3.8% 46.1%; /* Muted Text (#757575) */
 
-    --popover: 0 0% 100%;
-    --popover-foreground: 240 10% 3.9%;
+    --popover: 0 0% 100%; /* Same as light background (#ffffff) */
+    --popover-foreground: 240 10% 3.9%; /* Same as light text (#1a1a1a) */
 
-    --card: 0 0% 100%;
-    --card-foreground: 240 10% 3.9%;
+    --card: 0 0% 100%; /* Same as light background (#ffffff) */
+    --card-foreground: 240 10% 3.9%; /* Same as light text (#1a1a1a) */
 
-    --border: 240 5.9% 90%;
-    --input: 240 5.9% 90%;
+    --border: 240 5.9% 90%; /* Light Border (#e5e5e5) */
+    --input: 240 5.9% 90%; /* Light Input Background (#e5e5e5) */
 
-    --primary: 240 5.9% 10%;
-    --primary-foreground: 0 0% 98%;
+    --primary: 240 5.9% 10%; /* Dark Blue (#1a1a33) */
+    --primary-foreground: 0 0% 98%; /* White (#f8f8f8) */
 
-    --secondary: 240 4.8% 95.9%;
-    --secondary-foreground: 240 5.9% 10%;
+    --secondary: 240 4.8% 95.9%; /* Light Blue (#f2f2f2) */
+    --secondary-foreground: 240 5.9% 10%; /* Dark Blue (#1a1a33) */
 
-    --accent: 240 4.8% 95.9%;
-    --accent-foreground: 240 5.9% 10%;
+    --accent: 240 4.8% 95.9%; /* Light Accent (#f2f2f2) */
+    --accent-foreground: 240 5.9% 10%; /* Dark Accent (#1a1a33) */
 
-    --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 0 0% 98%;
+    --destructive: 0 84.2% 60.2%; /* Red (#ff4d4d) */
+    --destructive-foreground: 0 0% 98%; /* White (#f8f8f8) */
 
-    --ring: 240 10% 3.9%;
+    --ring: 240 10% 3.9%; /* Dark Ring (#1a1a1a) */
 
     --radius: 0.5rem;
 
-    --dracula-green: 120 100% 50%; /* Dracula Green */
-    --dracula-cyan: 187 100% 50%; /* Dracula Cyan */
+    --dracula-green: 135 94% 65%; /* Green (#50fa7b) */
+    --dracula-cyan: 187 92% 73%; /* Cyan (#8be9fd) */
+    --dracula-orange: 31 100% 74%; /* Orange (#ffb86c) */
+    --dracula-pink: 326 100% 72%; /* Pink (#ff79c6) */
+    --dracula-purple: 265 89% 84%; /* Purple (#bd93f9) */
+    --dracula-red: 0 100% 67%; /* Red (#ff5555) */
+    --dracula-yellow: 65 92% 80%; /* Yellow (#f1fa8c) */
   }
 
+  /* Dark Theme (Dracula) */
   .dark {
     --background: 231 15% 18%; /* Dracula Background (#282a36) */
-    --foreground: 60 100% 95%; /* Brighter text for better contrast */
-    --muted: 231 15% 28%; /* Slightly lighter than background (#44475a) */
-    --muted-foreground: 60 10% 80%; /* Muted text with better contrast */
+    --foreground: 60 100% 98%; /* Dracula Foreground (#f8f8f2) */
+
+    --muted: 231 15% 28%; /* Current Line (#44475a) */
+    --muted-foreground: 231 28% 57%; /* Comment (#6272a4) */
 
     --popover: 231 15% 18%; /* Same as background */
-    --popover-foreground: 60 100% 95%; /* Same as foreground */
+    --popover-foreground: 60 100% 98%; /* Same as foreground */
 
     --card: 231 15% 18%; /* Same as background */
-    --card-foreground: 60 100% 95%; /* Same as foreground */
+    --card-foreground: 60 100% 98%; /* Same as foreground */
 
-    --border: 231 15% 28%; /* Slightly lighter than background (#44475a) */
-    --input: 231 15% 28%; /* Slightly lighter than background (#44475a) */
+    --border: 231 15% 28%; /* Current Line (#44475a) */
+    --input: 231 15% 28%; /* Current Line (#44475a) */
 
-    --primary: 231 15% 18%; /* Same as background */
-    --primary-foreground: 60 100% 95%; /* Bright text for primary elements */
+    --primary: 265 89% 84%; /* Purple (#bd93f9) */
+    --primary-foreground: 60 100% 98%; /* Foreground (#f8f8f2) */
 
-    --secondary: 231 15% 28%; /* Slightly lighter than background (#44475a) */
-    --secondary-foreground: 60 100% 95%; /* Same as foreground */
+    --secondary: 187 92% 73%; /* Cyan (#8be9fd) */
+    --secondary-foreground: 60 100% 98%; /* Foreground (#f8f8f2) */
 
-    --accent: 231 15% 28%; /* Slightly lighter than background (#44475a) */
-    --accent-foreground: 60 100% 95%; /* Same as foreground */
+    --accent: 135 94% 65%; /* Green (#50fa7b) */
+    --accent-foreground: 60 100% 98%; /* Foreground (#f8f8f2) */
 
-    --destructive: 0 62.8% 47%; /* Dracula Red (#ff5555) */
-    --destructive-foreground: 60 100% 95%; /* Bright text for destructive actions */
+    --destructive: 0 100% 67%; /* Red (#ff5555) */
+    --destructive-foreground: 60 100% 98%; /* Foreground (#f8f8f2) */
 
-    --ring: 231 15% 28%; /* Slightly lighter than background (#44475a) */
-
-    --dracula-green: 120 100% 50%; /* Dracula Green */
-    --dracula-cyan: 187 100% 50%; /* Dracula Cyan */
+    --ring: 231 15% 28%; /* Current Line (#44475a) */
   }
 }
 

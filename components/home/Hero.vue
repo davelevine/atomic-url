@@ -16,7 +16,7 @@ const { title, description, github } = useAppConfig()
       >
         {{ title }}
       </h1>
-      <p class="max-w-xl mt-4 text-lg text-muted-foreground">
+      <p class="max-w-xl mt-4 text-lg dark:text-accent">
         {{ description }}
       </p>
       <div class="flex flex-col gap-3 mt-6 sm:flex-row">
@@ -25,7 +25,7 @@ const { title, description, github } = useAppConfig()
           href="/dashboard"
           type="outline"
           title="Dashboard"
-          class="flex items-center justify-center gap-1 px-6 py-3 rounded-full transition-colors bg-transparent text-primary border border-primary hover:bg-primary hover:text-primary-foreground dark:bg-primary-foreground dark:text-primary dark:border-primary-foreground dark:hover:bg-primary dark:hover:text-primary-foreground"
+          class="flex items-center justify-center gap-1 px-6 py-3 rounded-full transition-colors bg-transparent text-primary border border-primary hover:bg-primary hover:text-primary-foreground dark:bg-primary-foreground dark:text-card dark:border-primary-foreground dark:hover:bg-accent dark:hover:text-primary-accent"
           rel="noopener"
         >
           <AreaChart
@@ -40,7 +40,7 @@ const { title, description, github } = useAppConfig()
           rel="noopener"
           :href="github"
           title="Github"
-          class="flex items-center justify-center gap-1 px-6 py-3 rounded-full transition-colors bg-transparent text-primary border border-primary hover:bg-primary hover:text-primary-foreground dark:bg-transparent dark:text-primary-foreground dark:border-primary-foreground dark:hover:bg-primary-foreground dark:hover:text-primary"
+          class="flex items-center justify-center gap-1 px-6 py-3 rounded-full transition-colors bg-transparent text-primary border border-primary hover:bg-primary hover:text-primary-foreground dark:bg-transparent dark:text-primary-foreground dark:border-primary-foreground dark:hover:bg-primary-foreground dark:hover:text-background"
         >
           <GitHubIcon
             class="w-5 h-5"

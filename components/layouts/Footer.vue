@@ -9,7 +9,7 @@ const { title, github } = useAppConfig()
     <div class="container flex flex-col items-center py-8 mx-auto sm:flex-row">
       <a
         href="/"
-        class="text-xl font-black leading-none text-gray-900 select-none dark:text-gray-100 logo"
+        class="text-xl font-black leading-none dark:text-foreground select-none dark:hover:text-accent logo"
         :title="title"
       >{{ title }}</a>
       <span
@@ -20,7 +20,7 @@ const { title, github } = useAppConfig()
           :href="github"
           target="_blank"
           title="GitHub"
-          class="text-gray-400 hover:text-gray-500"
+          class="text-primary hover:text-primary"
         >
           <span class="sr-only">GitHub</span>
           <GitHubIcon
