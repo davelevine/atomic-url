@@ -1,5 +1,5 @@
 <script setup>
-import heroImg from '@/assets/images/hero.svg?raw'
+import heroImg from '@/assets/images/hero.png'
 import { AreaChart } from 'lucide-vue-next'
 import { GitHubIcon } from 'vue3-simple-icons'
 
@@ -50,10 +50,11 @@ const { title, description, github } = useAppConfig()
       </div>
     </div>
     <div class="hidden py-6 md:block">
-      <div
+      <img
+        :src="heroImg"
+        alt="Hero Image"
         class="w-[512px]"
-        v-html="heroImg"
-      />
+      >
     </div>
   </main>
 </template>
