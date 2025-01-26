@@ -17,7 +17,7 @@ const { title, github } = useAppConfig()
           <a
             href="/"
             :title="title"
-            class="flex items-center py-4 space-x-2 text-xl font-black text-foreground md:py-0"
+            class="flex items-center py-4 space-x-2 text-xl font-black text-foreground md:py-0 whitespace-nowrap"
           >
             <span
               class="flex items-center justify-center w-8 h-8 rounded-full bg-primary"
@@ -43,7 +43,7 @@ const { title, github } = useAppConfig()
             <a
               href="/"
               :title="title"
-              class="inline-flex items-center w-auto h-16 px-4 text-xl font-black leading-none text-foreground md:hidden"
+              class="inline-flex items-center w-auto h-16 px-4 text-xl font-black leading-none text-foreground md:hidden whitespace-nowrap"
             >
               <span
                 class="flex items-center justify-center w-8 h-8 text-white bg-primary rounded-full"
