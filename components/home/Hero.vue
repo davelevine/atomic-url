@@ -16,7 +16,7 @@ const { title, description, github } = useAppConfig()
       >
         {{ title }}
       </h1>
-      <p class="max-w-xl mt-4 text-lg text-slate-600">
+      <p class="max-w-xl mt-4 text-lg text-muted-foreground">
         {{ description }}
       </p>
       <div class="flex flex-col gap-3 mt-6 sm:flex-row">
