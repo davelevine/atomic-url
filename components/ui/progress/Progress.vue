@@ -32,8 +32,8 @@ const delegatedProps = computed(() => {
     "
   >
     <ProgressIndicator
-      class="flex-1 w-full h-full transition-all bg-primary"
-      :style="[`transform: translateX(-${100 - (props.modelValue ?? 0)}%);`, `background-color: ${props.color}`]"
+      class="flex-1 w-full h-full transition-all"
+      :style="[`transform: translateX(-${100 - (props.modelValue ?? 0)}%);`, 'background-color: hsl(var(--dracula-green))']"
     />
   </ProgressRoot>
 </template>
