@@ -1,5 +1,5 @@
 export default defineAppConfig({
-  title: 'Atomic-URL',
+  title: 'Atomic URL',
   email: 'atomic-url@encoded.org',
   github: 'https://github.com/davelevine/sink',
   blog: 'https://dave.levine.io/blog',

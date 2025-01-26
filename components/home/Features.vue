@@ -47,7 +47,7 @@ const features = ref([
       <h2 class="text-4xl font-bold lg:text-5xl lg:tracking-tight">
         Features
       </h2>
-      <p class="my-8 text-lg md:mb-0 text-primary">
+      <p class="my-8 text-lg md:mb-0 text-foreground">
         Simple and sufficient functionality
       </p>
     </div>
@@ -68,7 +68,7 @@ const features = ref([
           <h3 class="text-lg font-semibold">
             {{ item.title }}
           </h3>
-          <p class="mt-2 leading-relaxed text-primary">
+          <p class="mt-2 leading-relaxed text-foreground">
             {{ item.description }}
           </p>
         </div>
