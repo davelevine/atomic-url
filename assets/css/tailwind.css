@@ -34,6 +34,8 @@
     --ring: 240 10% 3.9%;
 
     --radius: 0.5rem;
+
+    --dracula-green: 120 100% 50%; /* Dracula Green */
   }
 
   .dark {
@@ -64,6 +66,8 @@
     --destructive-foreground: 60 100% 95%; /* Bright text for destructive actions */
 
     --ring: 231 15% 28%; /* Slightly lighter than background (#44475a) */
+
+    --dracula-green: 120 100% 50%; /* Dracula Green */
   }
 }
 

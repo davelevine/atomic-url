@@ -10,8 +10,8 @@ export function defaultColors(count: number = 3) {
   const primaryCount = quotient + remainder
   const secondaryCount = quotient
   return [
-    ...Array.from(Array(primaryCount).keys()).map(i => `hsl(var(--teal-500) / ${1 - (1 / primaryCount) * i})`),
-    ...Array.from(Array(secondaryCount).keys()).map(i => `hsl(var(--green-500) / ${1 - (1 / secondaryCount) * i})`),
+    ...Array.from(Array(primaryCount).keys()).map(i => `hsl(var(--dracula-green) / ${1 - (1 / primaryCount) * i})`),
+    ...Array.from(Array(secondaryCount).keys()).map(i => `hsl(var(--dracula-green) / ${1 - (1 / secondaryCount) * i})`),
   ]
 }
 
