@@ -1,4 +1,5 @@
 <script setup>
+import { ref } from 'vue'
 import { Ellipsis, X } from 'lucide-vue-next'
 import { GitHubIcon } from 'vue3-simple-icons'
 import SwitchTheme from '../SwitchTheme.vue'
@@ -30,6 +31,11 @@ const { title, github } = useAppConfig()
             </span>
             <span class="mx-2">{{ title }}</span>
           </a>
+        </div>
+
+        <!-- Add theme switcher for mobile view -->
+        <div class="flex items-center md:hidden mr-12">
+          <SwitchTheme />
         </div>
 
         <div
@@ -75,7 +81,7 @@ const { title, github } = useAppConfig()
                   class="w-5 h-5 mr-1"
                 />
                 GitHub</a>
-              <span class="ml-1">
+              <span class="ml-1 hidden md:block">
                 <SwitchTheme />
               </span>
             </div>
