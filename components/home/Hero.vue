@@ -25,7 +25,9 @@ const { title, description, github } = useAppConfig()
           href="/dashboard"
           type="outline"
           title="Dashboard"
-          class="flex items-center justify-center gap-1 px-6 py-3 rounded-full transition-colors bg-foreground text-accent border border-primary hover:bg-accent hover:text-foreground dark:bg-primary-foreground dark:text-card dark:border-primary-foreground dark:hover:bg-accent dark:hover:border-accent dark:hover:text-primary-accent"
+          class="flex items-center justify-center gap-1 px-6 py-3 rounded-full transition-colors bg-transparent text-primary border border-primary hover:bg-primary hover:text-primary-foreground
+          
+          dark:bg-primary-foreground dark:text-card dark:border-primary-foreground dark:hover:bg-accent dark:hover:border-accent"
           rel="noopener"
         >
           <AreaChart
@@ -40,7 +42,9 @@ const { title, description, github } = useAppConfig()
           rel="noopener"
           :href="github"
           title="Github"
-          class="flex items-center justify-center gap-1 px-6 py-3 rounded-full transition-colors bg-transparent text-primary border border-primary hover:bg-primary hover:text-primary-foreground dark:bg-transparent dark:text-primary-foreground dark:border-primary-foreground dark:hover:bg-primary dark:hover:border-primary dark:hover:text-background"
+          class="flex items-center justify-center gap-1 px-6 py-3 rounded-full transition-colors bg-transparent text-primary border border-primary hover:bg-primary hover:text-primary-foreground
+          
+          dark:bg-transparent dark:text-primary-foreground dark:border-primary-foreground dark:hover:bg-primary dark:hover:border-primary dark:hover:text-background"
         >
           <GitHubIcon
             class="w-5 h-5"
