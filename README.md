@@ -1,4 +1,4 @@
-# ⚡ Sink
+# ⚡ Atomic URL (formely Sink)
 
 **A Simple / Speedy / Secure Link Shortener with Analytics, 100% run on Cloudflare.**
 
@@ -44,19 +44,11 @@
 - **🪄 AI Slug:** Leverage AI to generate slugs.
 - **Link Expiration:** Set expiration dates for your links.
 
-## 🪧 Demo
-
-Experience the demo at [dl.is](https://dl.is/dashboard). Log in using the Site Token below:
-
-```txt
-Site Token: SinkCool
-```
-
 <details>
   <summary><b>Screenshots</b></summary>
-  <img alt="Analytics" src="./docs/images/dl.is_dashboard.png"/>
-  <img alt="Links" src="./docs/images/dl.is_dashboard_links.png"/>
-  <img alt="Link Analytics" src="./docs/images/dl.is_dashboard_link_slug.png"/>
+  <img alt="Analytics" src="./docs/images/sink.cool_dashboard.png"/>
+  <img alt="Links" src="./docs/images/sink.cool_dashboard_links.png"/>
+  <img alt="Link Analytics" src="./docs/images/sink.cool_dashboard_link_slug.png"/>
 </details>
 
 ## 🧱 Technologies Used
@@ -120,13 +112,12 @@ We welcome your contributions and PRs.
 
 [FAQs](./docs/faqs.md)
 
+## License
+
+This project is a fork of the original **Sink** project and is licensed under the [GNU Affero General Public License v3.0](https://www.gnu.org/licenses/agpl-3.0.html).
+
 ## 💖 Credits
 
 1. [**Cloudflare**](https://www.cloudflare.com/)
 2. [**NuxtHub**](https://hub.nuxt.com/)
 3. [**Astroship**](https://astroship.web3templates.com/)
-
-## ☕ Sponsor
-
-1. [Follow Me on X(Twitter)](https://404.li/kai).
-2. [Become a sponsor to on GitHub](https://github.com/sponsors/ccbikai).
