@@ -1,7 +1,7 @@
 export default defineAppConfig({
   title: 'Atomic URL',
   email: 'atomic-url@encoded.org',
-  github: 'https://github.com/davelevine/sink',
+  github: 'https://github.com/davelevine/atomic-url',
   blog: 'https://dave.levine.io/blog',
   description: 'A URL shortener proof of concept run on Cloudflare.',
   image: 'https://dl.is/banner.png',
